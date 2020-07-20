@@ -1,0 +1,330 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    
+
+
+#error404{
+    position:absolute;
+    width: 50%;
+    height: 25px;
+    left: 30px;
+    top: 10;
+
+    font-family: inconsolate;
+    font-kerning: normal;
+    font-weight:;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    text-transform:uppercase;
+    color: #333333;
+}
+.scarecrow{
+    width: 60%;
+    height: 238px;
+    position: absolute;
+    left: 18.78%;
+    right:11.78%;
+    top: 20.49%;
+    bottom: 63.44%;
+}
+.wrapper{
+    width: 375px;
+    height:949px;
+    margin:50px 20px 50px 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 24px rgba(0,0,0,0.1);
+}
+.error_message{
+    position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 50px;
+    top: 407px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+.error_message2{
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 50px;
+    right:50px;
+    top: 578px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+}
+
+button{
+    /* Rectangle 71 button*/
+position: absolute;
+width: 150px;
+height: 50px;
+left: 50px;
+top: 726px;| 
+background-color: #333333;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 10px;
+}
+
+ #myName{
+    text-align: center;
+    margin-bottom: 0;
+    position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 75px;
+    top: 890px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+   color: #333333;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+
+}
+
+.wrapper{
+    width: 710px;
+    height:1080px;
+    margin:50px 20px 50px 20px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+}
+
+
+#error404{
+    position: absolute;
+    width: 70%;
+    height: 25px;
+    left: 50px;
+    top: 77px;
+    font-family: Inconsolata;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    color:#333333; 
+}
+.scarecrow{
+ width:433.9px;
+ height: 350px;     
+position: absolute;
+left:150px;
+right: 70%;
+top: 10.75%;
+bottom: 50.36%;
+}
+
+.error_message{
+   position: absolute;
+   width: 586px;
+   height: 190px;
+   left: 100px;
+   top: 450px;
+   margin:3px;
+   font-family: Space Mono;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 64px;
+   line-height: 95px;
+   letter-spacing: -0.035em;
+   color: #333333;
+}
+
+
+.error_message2{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 100px;
+    top: 650px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.035em; 
+   /* Gray 2 */
+   color: #4F4F4F;
+}
+
+button{
+    
+position: absolute;
+width: 216px;
+height: 75px;
+left: 100px;
+top: 800px;|
+font-size: 35px;
+font-weight: bold;
+
+}
+ #myName{
+
+    text-align: center;
+    margin-bottom: 0;*/
+   position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 300px;
+    top: 1024px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+   color: #333333;
+}
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+
+
+
+}
+#error404{
+position: absolute;
+width: 160px;
+height: 25px;
+left: 77px;
+margin-top: 40px;
+
+font-family: Inconsolata;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+
+color: #333333;
+}
+
+.wrapper{
+    width: 1440px;
+    height:1080px;
+    margin:50px 20px 50px 20px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+}
+
+.container {
+    display: flex;
+    margin:200px 0 50px 0;
+}
+ .error_message{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+/* Gray 1 */
+
+     color: #333333;
+
+
+}
+.error_message2{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 735px;
+    top: 491px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em; 
+   color: #4F4F4F;
+}
+.scarecrow{
+ width:533.9px;     
+position: absolute;
+left:100px;
+right: 74.62%;
+top: 40.75%;
+bottom: 68.36%;
+}
+
+.wrapper > #myName{
+    
+    text-align: center;
+    margin-bottom: 0;*/
+   position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 560px;
+    top: 1024px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+   color: #333333;
+
+    
+}
+button{
+    /* Rectangle 71 button*/
+position: absolute;
+width: 216px;
+height: 68px;
+left: 740px;
+top: 663px;| 
+
+}
+}
+
+
+
+
